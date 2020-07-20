@@ -1,4 +1,4 @@
-# _Pierre's Bakery_
+# _Mad Libs_
 Epicodus Week 9  
 Version 1.0 - July 20, 2020 
 
