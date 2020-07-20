@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>MadLibs!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>MadLibs</h1>
+        <p>Fill the form to create a story</p>
+      </div>
+      <form action="/madlib2" method="post">
+        <div class="form-group">
+          <label for="food">Food</label>
+          <input id="food" name="food" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="firstIngredient">Ingredient</label>
+          <input id="firstIngredient" name="firstIngredient" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="secondIngredient">Ingredient</label>
+          <input id="secondIngredient" name="secondIngredient" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="thirdIngredient">Ingredient</label>
+          <input id="thirdIngredient" name="thirdIngredient" type="text" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
