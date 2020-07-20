@@ -6,22 +6,38 @@
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
   </head>
   <body>
-    <h1>MadLibs</h1>
-    <p>Fill the form to create a story</p>
-    <form action="/madlib" method="post">
-      <label for="firstAdjective">First adjective</label>
-      <input id="firstAdjective" name="firstAdjective" type="text">
-      <label for="color">Color</label>
-      <input id="color" name="color" type="text">
-      <label for="firstAnimal">First animal</label>
-      <input id="firstAnimal" name="firstAnimal" type="text">
-      <label for="verb">Verb</label>
-      <input id="verb" name="verb" type="text">
-      <label for="secondAdjective">Second adjective</label>
-      <input id="secondAdjective" name="secondAdjective" type="text">
-      <label for="secondAnimal">Second animal</label>
-      <input id="secondAnimal" name="secondAnimal" type="text">
-      <button type="submit">Submit</button>
-    </form>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>MadLibs</h1>
+        <p>Fill the form to create a story</p>
+      </div>
+      <form action="/madlib" method="post">
+        <div class="form-group">
+          <label for="firstAdjective">First adjective</label>
+          <input id="firstAdjective" name="firstAdjective" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="color">Color</label>
+          <input id="color" name="color" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="firstAnimal">First animal</label>
+          <input id="firstAnimal" name="firstAnimal" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="verb">Verb</label>
+          <input id="verb" name="verb" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="secondAdjective">Second adjective</label>
+          <input id="secondAdjective" name="secondAdjective" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="secondAnimal">Second animal</label>
+          <input id="secondAnimal" name="secondAnimal" type="text" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
